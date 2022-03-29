@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+     <!-- font awesome 4 -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>REDStore</title>
+</head>
+<body>
+    <div >
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" width="125px" alt=""></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li> <a href="#">Home</a> 
+                </li>
+                <li> <a href="#">Products</a></li>
+                <li> <a href="#">About</a></li>
+                <li> <a href="#">Contact</a></li>
+                <li> <a href="#">Account</a></li>
+            </ul>
+        </nav>
+        <a href="cart.html"><img src="images/cart.png" width="30px" height="30px" alt=""></a>
+        <img src="images/menu.png" class="menuicon" onclick="menutoggle()" alt="" >
+    </div>
+  
+   </div>
+</div>
+<!-- single product details -->
+<div class="smallcontainer singleproducts">
+    <div class="row">
+        <div class="col-2">
+            <img src="images/gallery-1.jpg" width="100%" id="productImg" alt="">
+            <div class="smallrow">
+                <div class="smallcol">
+                    <img src="images/gallery-1.jpg" width="100%" class="smallImg" alt="">
+                </div>
+                <div class="smallcol">
+                    <img src="images/gallery-2.jpg" width="100%" class="smallImg" alt="">
+                </div>
+                <div class="smallcol">
+                    <img src="images/gallery-3.jpg" width="100%" class="smallImg" alt="">
+                </div>
+                <div class="smallcol">
+                    <img src="images/gallery-4.jpg" width="100%" class="smallImg" alt="">
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-2">
+            <p>Home/ Tshirt</p>
+            <h1>Red Printed Tshirt By HRX</h1>
+            <h4>450tk</h4>
+            <select>
+                <option> Select size</option>
+                <option> XXL</option>
+                <option> XL</option>
+                <option> L</option>
+            </select>
+            <input type="number" value="1">
+            <a href="" class="btn">Add to Cart</a>
+
+            <h3>Products Details <i class="fa fa-indent"></i></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolore amet ipsum quis minima voluptates officiis ullam, illo inventore asperiores!</p>
+        </div>
+    </div>
+</div>
+
+
+<!-- featured products -->
+<div class="smallcontainer">
+    <div class="row row2">
+        <h2>Related Product</h2>
+        <select>
+            <option>Default Shorting</option>
+            <option>Short by price</option>
+            <option>Short by popularity</option>
+            <option>Short by rating</option>
+            <option>Short by sale</option>
+        </select>
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product-6.jpg" alt="">
+            <h4>Red Printed Tshirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+
+            </div>
+            <p>450tk</p>
+       
+        </div>
+        <div class="col-4">
+            <img src="images/product-2.jpg" alt="">
+            <h4>Red Printed Tshirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+
+            </div>
+            <p>450tk</p>
+       
+        </div>
+        <div class="col-4">
+            <img src="images/product-3.jpg" alt="">
+            <h4>Red Printed Tshirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+
+            </div>
+            <p>450tk</p>
+       
+        </div>
+        <div class="col-4">
+            <img src="images/product-4.jpg" alt="">
+            <h4>Red Printed Tshirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+
+            </div>
+            <p>450tk</p>
+       
+        </div>
+    </div>
+   
+    </div>
+
+
+
+<!-- footer -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footercol-1">
+                <h3> Download Our app</h3>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, recusandae!</p>
+                <div class="applogo">
+                    <img src="images/play-store.png" alt="">
+                    <img src="images/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="footercol-2">
+                <img src="images/logo-white.png" alt="">
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, recusandae!</p>
+            </div>
+            <div class="footercol-3">
+                <h3> Useful links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footercol-4">
+                <h3> Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Istagarm</li>
+                    <li>Tweeter</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">copyright SushmoyGhosh -help of @easytutorials</p>
+    </div>
+</div>
+
+<!-- js for toggle menu -->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+   
+    MenuItems.style.maxHeight= "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+
+    // product gallery
+    var productImg = document.getElementById("productImg");
+
+    var SmallImg = document.getElementsByClassName("smallImg");
+
+    SmallImg[0].onclick = function(){
+        productImg.src = SmallImg[0].src;
+    }
+
+    SmallImg[1].onclick = function(){
+        productImg.src = SmallImg[1].src;
+    }
+
+    SmallImg[2].onclick = function(){
+        productImg.src = SmallImg[2].src;
+    }
+
+    SmallImg[3].onclick = function(){
+        productImg.src = SmallImg[3].src;
+    }
+
+
+</script>
+</body>
+</html>
